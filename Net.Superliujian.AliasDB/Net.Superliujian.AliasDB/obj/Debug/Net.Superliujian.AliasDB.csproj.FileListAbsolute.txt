@@ -1,0 +1,14 @@
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\AliasDB.dll.config
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\AliasDB.dll
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\AliasDB.pdb
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\MySql.Data.dll
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\System.Data.SQLite.DLL
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\obj\Debug\ResolveAssemblyReference.cache
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\obj\Debug\AliasDB.dll
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\obj\Debug\AliasDB.pdb
+C:\KenLew\MyProject\Alias\AliasDB\Net.Superliujian.AliasDB\Net.Superliujian.AliasDB\bin\Debug\AliasDB.dll.config
+C:\KenLew\MyProject\Alias\AliasDB\Net.Superliujian.AliasDB\Net.Superliujian.AliasDB\bin\Debug\AliasDB.dll
+C:\KenLew\MyProject\Alias\AliasDB\Net.Superliujian.AliasDB\Net.Superliujian.AliasDB\bin\Debug\AliasDB.pdb
+C:\KenLew\MyProject\Alias\AliasDB\Net.Superliujian.AliasDB\Net.Superliujian.AliasDB\obj\Debug\ResolveAssemblyReference.cache
+C:\KenLew\MyProject\Alias\AliasDB\Net.Superliujian.AliasDB\Net.Superliujian.AliasDB\obj\Debug\AliasDB.dll
+C:\KenLew\MyProject\Alias\AliasDB\Net.Superliujian.AliasDB\Net.Superliujian.AliasDB\obj\Debug\AliasDB.pdb

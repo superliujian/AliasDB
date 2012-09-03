@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D253A2D0-B5C4-4DED-AE80-D1DED63C83CC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Net.Superliujian.AliasDB</RootNamespace>
+    <AssemblyName>AliasDB</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\..\Program Files (x86)\Maticsoft\Codematic2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\..\Program Files (x86)\Maticsoft\Codematic2\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\DataAccessOracle.cs" />
+    <Compile Include="DataAccess\DataAccessOdbc.cs" />
+    <Compile Include="DataAccess\DataAccessBase.cs" />
+    <Compile Include="DataAccess\DataAccessOleDb.cs" />
+    <Compile Include="DataAccess\DataAccessSQLite.cs" />
+    <Compile Include="DataAccess\DataAccessMySQL.cs" />
+    <Compile Include="DataAccess\DataAccessSQLServer.cs" />
+    <Compile Include="DbHelperWrapper\OracleDbHelperWrapper.cs" />
+    <Compile Include="DbHelperWrapper\OdbcDbHelperWrapper.cs" />
+    <Compile Include="DbHelperWrapper\OleDbHelperWrapper.cs" />
+    <Compile Include="DbHelperWrapper\SQLDbHelperWrapper.cs" />
+    <Compile Include="DbHelperWrapper\CustomParameter.cs" />
+    <Compile Include="DbHelper\DbHelperODBC.cs" />
+    <Compile Include="Maticsoft.DBUtility\CommandInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maticsoft.DBUtility\DbHelperMySQL.cs" />
+    <Compile Include="Maticsoft.DBUtility\DbHelperOleDb.cs" />
+    <Compile Include="Maticsoft.DBUtility\DbHelperOracle.cs" />
+    <Compile Include="Maticsoft.DBUtility\DbHelperSQL.cs" />
+    <Compile Include="Maticsoft.DBUtility\DbHelperSQLite.cs" />
+    <Compile Include="DbHelperWrapper\IDbHelperWrapper.cs" />
+    <Compile Include="DbHelperWrapper\MySQLDbHelperWrapper.cs" />
+    <Compile Include="DbHelperWrapper\SQLiteDbHelperWrapper.cs" />
+    <Compile Include="Maticsoft.DBUtility\DbHelperSQLP.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maticsoft.DBUtility\OracleHelper.cs" />
+    <Compile Include="Maticsoft.DBUtility\SqlHelper.cs" />
+    <Compile Include="PubConstant.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

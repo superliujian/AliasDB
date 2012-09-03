@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Superliujian.AliasDB", "Net.Superliujian.AliasDB\Net.Superliujian.AliasDB.csproj", "{D253A2D0-B5C4-4DED-AE80-D1DED63C83CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D253A2D0-B5C4-4DED-AE80-D1DED63C83CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D253A2D0-B5C4-4DED-AE80-D1DED63C83CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D253A2D0-B5C4-4DED-AE80-D1DED63C83CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D253A2D0-B5C4-4DED-AE80-D1DED63C83CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

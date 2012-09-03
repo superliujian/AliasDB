@@ -1,0 +1,8 @@
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\Net.Superliujian.Common.DB.dll
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\Net.Superliujian.Common.DB.pdb
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\MySql.Data.dll
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\System.Data.SQLite.DLL
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\obj\Debug\ResolveAssemblyReference.cache
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\obj\Debug\Net.Superliujian.Common.DB.dll
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\obj\Debug\Net.Superliujian.Common.DB.pdb
+C:\KenLew\MyProject\Net.Superliujian.Common.DB\Net.Superliujian.Common.DB\bin\Debug\Net.Superliujian.Common.DB.dll.config
